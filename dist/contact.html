@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - One Page Website Template</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Questrial">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=News+Cycle">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amatic+SC">
@@ -15,46 +16,65 @@
 <!-- partial:index.partial.html -->
 <body>
   <header>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inner">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand brand" href="#">TREEPPO</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="members.html">Members</a></li>
-            <li><a href="resources.html">Resources</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-
-
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-    </nav>
-    <div class="container-fluid">
-      <div class="more-space row">
-        <div class="col-md-12">
-          <div class="text-center intro">
-            <h1>NAVNIT</h1>
-            <h4>HIMANSHU</h4><h4 class="red">A creative bunch who love code and design.</h4>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="members.html">Members</a>
+            <a class="nav-item nav-link" href="resources.html">Resources</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
           </div>
         </div>
-      </div>
-    </div>
-    </div>
+      </nav>
   </header>
+  <!-- //allign four dark cards horizontally with a space in between -->
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-3">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Navnit Anand</h5>
+                <p class="card-text">+91 7992291651</p>
+                <a href="#" class="btn btn-primary">navnit_b190404cs@nitc.ac.in</a>
+            </div>
+            </div>
+        </div>
+        <!-- card 2 -->
+        <div class="col-sm-3">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Himanshu Modi</h5>
+                <p class="card-text">+91 9024937646</p>
+                <a href="#" class="btn btn-primary">himanshu_b190456cs@nitc.ac.in</a>
+            </div>
+            </div>
+        </div>
+        <!-- card 3 -->
+        <div class="col-sm-3">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Pratyush Aggarwal</h5>
+                <p class="card-text">+91 7678373937</p>
+                <a href="#" class="btn btn-primary">pratyush_b190329cs@nitc.ac.in</a>
+            </div>
+            </div>
+        </div>
+        <!-- card 4 -->
+        <div class="col-sm-3">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Anmol</h5>
+                <p class="card-text">+91 9783379117</p>
+                <a href="#" class="btn btn-primary">anmol_b190784cs@nitc.ac.in</a>
+            </div>
+            </div>
+        </div>
+    </div>
 <!-- partial -->
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script><script  src="./script.js"></script>
